@@ -6,4 +6,4 @@
 | endpoint | Обновить существующий endpoint | Создать новый endpoint | Тип запроса | Действие |
 | --- | :---: | :---: | --- | --- |
 | /predict/{baseline} | :heavy_check_mark: | | POST | Возвращает предсказание класса (fraud/clean) для заданного входного текста **и записывает входной текст, предсказание, используемый бейзлайн и время выполнения в базу ``messages.db``** |
-| /get_latest_entry/{baseline} | | :heavy_check_mark: | GET | Возвращает крайнюю запись в БД ``messages.db``|
+| /get_latest_entry/{baseline} | | :heavy_check_mark: | GET | Возвращает крайнюю запись в БД ``messages.db`` для бейзлайна ``baseline``|
